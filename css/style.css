@@ -81,6 +81,7 @@ body {
 }
 #hero {
   padding-top: 40px;
+  padding-bottom: 40px;
   background: #161D2F;
   min-height: 100vh;
 }
@@ -125,6 +126,7 @@ body {
   background: url("../img/videoimg.png") no-repeat center/cover;
   width: 1110px;
   height: 600px;
+  border-radius: 15px;
 }
 #hero .hero__video--btn {
   position: absolute;
@@ -145,6 +147,14 @@ body {
   margin: 22px auto;
 }
 
+#program {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#program .slider .slick-track .slick-slide img {
+  width: 350px;
+  height: 240px;
+}
 #program .slider .slick-prev {
   font-size: 0;
   background: url("../img/left.svg") no-repeat center/15px transparent;
