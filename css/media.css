@@ -129,6 +129,9 @@
     margin: 10px 0;
   }
 
+  #program {
+    padding-bottom: 40px;
+  }
   #program .slider .slick-track .slick-slide img {
     width: 290px;
     height: 240px;
